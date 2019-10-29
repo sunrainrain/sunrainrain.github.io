@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+
 *{
     position: relative;
 }
 html,body{
-    background : seashell;
+    background : rgb(243, 243, 243);
     padding: 0%;
     margin: 0%;
     height: 100%;
@@ -11,25 +13,56 @@ html,body{
 .wraper{
     height: 100%;
 }
-.test{
-    background-color: #000000;
-    /* border: 1px solid #000000; */
-    color: seashell;
-    font-family: 微軟正黑體;
-    font-size: 20pt;
-    line-height: 40px;
-    border-radius: 10px;
-    padding: 10px 30px;
-    display: inline-block;
-    box-shadow: 0 15px 20px #666666;
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.myweb{
+    padding-left: 5%;
+    color: rgb(128, 204, 255);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 14pt;
+}
+.rec{
+    padding-left: 5%;
+    padding-top: 20px;
+}
+.btn{
+    color: rgb(128, 204, 255);
+    background: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 11pt;
+    border: 1px solid rgb(128, 204, 255);
+    padding: 5px 10px;
+    line-height: 24px;
 
 }
-.test:hover{
-    color: rgb(123, 229, 255);
-    /* background-color: #005475; */
+.btn:hover{
+    color: rgb(255, 227, 102);
+    border: 1px solid rgb(255, 227, 102);
+}
+.btn:active{
+    color: rgb(255, 163, 102);
+    border: 1px solid rgb(255, 163, 102);
+}
+
+
+.painter_rec{
+    position: absolute;
+    left: 120px;
+    top: 60px;
+}
+.word{
+    position: absolute;
+    left: 200px;
+    font-size: 11pt;
+    font-family:'Noto Sans TC', sans-serif;
+    color: rgb(141, 141, 141);
+    line-height: 21pt;
+}
+.my_name{
+    top: 20px;
+}
+.aboutMe{
+    top: -35px;
+}
+.work{
+    top: -90px;
 }

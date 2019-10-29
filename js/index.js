@@ -1,0 +1,27 @@
+$(document).ready(function(){
+    $(".word").hide();
+    $(".btn_name").click(function(){
+        $(".my_name").toggle("fast");
+        $(".aboutMe").hide();
+        $(".work").hide();
+        $(".painter_rec").hide();
+    })
+    $(".btn_aboutMe").click(function(){
+        $(".my_name").hide();
+        $(".aboutMe").toggle(1000);
+        $(".work").hide();
+        $(".painter_rec").hide();
+    })
+    $(".btn_work").click(function(){
+        $(".my_name").hide();
+        $(".aboutMe").hide();
+        $(".work").toggle("fast");
+        $(".painter_rec").hide();
+    })
+    $(".btn_paint").click(function(){
+        $(".my_name").hide();
+        $(".aboutMe").hide();
+        $(".work").hide();
+        $(".painter_rec").toggle(1000);
+    })
+})
